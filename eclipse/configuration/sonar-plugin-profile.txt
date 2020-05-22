@@ -1,0 +1,15 @@
+
+<profile>
+	<id>sonar</id>
+	<activation>
+		<activeByDefault>true</activeByDefault>
+	</activation>
+	<properties>
+		<!-- Optional URL to server. Default value is http://localhost:9000 -->
+		<sonar.host.url>
+		  http://sonarqube:9000
+		</sonar.host.url>
+	</properties>
+</profile>
+
+sonar:sonar -Dsonar.login=bc41fc0813f6eb5ddb0db96228918b527de636a3
